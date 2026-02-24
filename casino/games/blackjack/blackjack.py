@@ -453,7 +453,9 @@ class StandardBlackjack(Blackjack):
 
     #combining the 8 steps
     def play_round(self) -> str:
-        # Plays a single round of Standard Blackjack
+        """
+         Plays a single round of Standard Blackjack.
+        """
         self.bet()  # Step 1
         self.deal_cards()  # Step 2
         self.render_table()
